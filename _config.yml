@@ -1,1 +1,9 @@
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
+title: "FOSS Family Recipes"
+
+url: "http://fossrecipes.com"
+
+collections:
+    recipes:
+        output: true
+        permalink: /:collection/:name

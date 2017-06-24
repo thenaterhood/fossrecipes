@@ -1,5 +1,28 @@
-# FOSS Family Recipes
+---
+layout: list
+title: FOSS Family Recipes
+---
+{% include list_page_item.html
+title="Search"
+url="/search"
+image="images/foss-potato.png"
+description="
+Search recipes. Search is powered by DuckDuckGo and may lag
+behind site content slightly.
+"
+%}
 
-This Github Pages site is a collection of recipes from the free and open source community.
+{% include list_page_item.html
+title="Categories"
+url="/categories"
+image="images/foss-potato.png"
+description="Browse by category"
+%}
 
-[Contribute!](https://github.com/thenaterhood/fossrecipes)
+{% include list_page_item.html
+title="Everything"
+url="/all-recipes"
+image="images/foss-potato.png"
+description="View a list of all the contributed recipes"
+%}
+
