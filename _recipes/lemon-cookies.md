@@ -9,7 +9,7 @@ tags:[cookies]
 * 2 eggs
 * 1/3 cup vegetable oil
 * 1 teaspoon lemon extract
-* 1/3 cup confectioners’ sugar for decoration
+* 1/3 cup confectioners' sugar for decoration
 
 ## Utensils:
 * Large bowl
@@ -24,9 +24,9 @@ tags:[cookies]
 
 3. Stir in eggs, oil and lemon extract until well blended.
 
-4. Drop teaspoonfuls of dough into a bowl of confectioners’ sugar.
+4. Drop teaspoonfuls of dough into a bowl of confectioners' sugar.
 
-5. Roll them around until they’re lightly covered. 
+5. Roll them around until they're lightly covered. 
 
 6. Once sugared, put them on an ungreased cookie sheet.
 
