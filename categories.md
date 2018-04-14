@@ -4,7 +4,7 @@ title: Tags
 ---
 {% assign tags =  site.recipes | map: 'tags' | join: ','  | split: ',' | uniq %}
 {% for tag in tags %}
-  <h3>{{ tag | slugify }}</h3>
+  <h3 id="{{tag | slugify }}">{{ tag | slugify }}</h3>
   <ul>
   {% for r in site.recipes %}
     {% if r.tags contains tag %}

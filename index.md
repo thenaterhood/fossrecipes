@@ -1,28 +1,20 @@
 ---
-layout: list
+layout: page
 title: FOSS Family Recipes
 ---
-{% include list_page_item.html
-title="Search"
-url="/search"
-image="images/potato-search.png"
-description="
-Search recipes. Search is powered by DuckDuckGo and may lag
-behind site content slightly.
-"
-%}
 
-{% include list_page_item.html
-title="Categories"
-url="/categories"
-image="images/potato-tags.png"
-description="Browse by category"
-%}
+<section id="">
+<div class="content">
+<header>
+<p>Free and community-sourced recipes.</p>
+</header>
 
-{% include list_page_item.html
-title="Everything"
-url="/all-recipes"
-image="images/potato-browse-all.png"
-description="View a list of all the contributed recipes"
-%}
+<ul class="actions">
+<li><a href="/categories" class="button big">Tags</a></li>
+<li><a href="/all-recipes" class="button big">Browse All</a></li>
+<li><a href="https://github.com/thenaterhood/fossrecipes" class="button big">Github</a></li>
+</ul>
+</div>
+</section>
+
 

@@ -2,24 +2,34 @@
 {% include site_header.html %}
 {% include page_start.html %}
                 <!-- Post -->
-                <article class="box post">
-                    <header>
-                        <h3>{{ page.title }}</h3>
+                <section>
+                    <header class="main">
+                        <h1>{{ page.title }}</h1>
                     </header>
+
                     {{ content }}
-                    <!--
-                    <ul class="actions">
-                        <li><a href="#" class="button icon fa-file">Continue Reading</a></li>
-                    </ul>
-                    -->
-                </article>
+                </section>
 
-            </div>
+                </div>
+                </div>
 
-    </div>
-</div>
+                <div id="sidebar">
+                    <div class="inner">
+                        <nav id="menu">
+                            <header class="major">
+                                <h2>Categories</h2>
+                            </header>
+                            <ul>
+                                {% assign tags =  site.recipes | map: 'tags' | join: ','  | split: ',' | uniq %}
+
+                                {% for tag in tags %}
+                                <li><a href="/categories#{{tag | slugify}}">{{tag}}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </nav>
+
     {% include site_footer.html %}
-</div>
+                </div>
 
 </div>
 {% include scripts.html %}
