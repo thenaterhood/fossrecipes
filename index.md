@@ -1,10 +1,9 @@
 ---
-layout: page
+layout: index
 title: FOSS Family Recipes
+hero: /images/potatoes-and-pot.jpg
 ---
 
-<section id="">
-<div class="content">
 <header>
 <p>Free and community-sourced recipes.</p>
 </header>
@@ -14,7 +13,3 @@ title: FOSS Family Recipes
 <li><a href="/all-recipes" class="button big">Browse All</a></li>
 <li><a href="https://github.com/thenaterhood/fossrecipes" class="button big">Github</a></li>
 </ul>
-</div>
-</section>
-
-
