@@ -8,6 +8,7 @@ tags: [chicken, slow cooker, gluten free]
 * 4 chicken breasts
 * 5 cups of chicken broth OR chicken bouillon prepared to the same quantity
 * 4 large potatoes
+* 1/2 head of broccoli (optional)
 * 4 stalks of celery
 * 3 cloves of garlic, minced
 * 1 cup of frozen sweet corn
@@ -27,7 +28,7 @@ tags: [chicken, slow cooker, gluten free]
 
 * Peel the potatoes.
 
-* Roughly cut the potatoes, onion (if using), celery, and chicken into bite-size chunks.
+* Roughly cut the potatoes, onion (if using), broccoli (if using), celery, and chicken into bite-size chunks.
 
 * Pour the chicken broth into the slow cooker. Add dry spices, corn, and garlic and stir well.
 
