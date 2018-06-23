@@ -9,10 +9,15 @@ tags: [breakfast, sourdough]
 * 2 cups unfed "discard" starter at 100% hydration
 * 1 egg
 * 4 tbsp oil
-* 2 tbsp water
-* 2 tbsp sugar
+* 2 tsp water
+* 1 1/2 tbsp real maple syrup
 * 1/2 tsp salt
 * 1 teaspoon baking soda (see instructions first!)
+
+## Substitutions
+* Sugar for maple syrup:
+  * Replace the maple syrup with 2 tbsp sugar
+  * Increase the 2 tsp of water to 2 tbsp water
 
 ## Directions
 
