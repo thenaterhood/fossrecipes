@@ -9,9 +9,8 @@ tags: [snacks, sourdough]
 * 2 tablespoons of room temperature or softened butter, unsalted
 * 2 tablespoons sugar (divided)
 * 1 cup hot water
-* 1 1/2 cups starter
-* 3 cups AP flour
-* 1 cup bread flour, or additional cup AP flour
+* 1 cup starter
+* 4 cups AP flour
 * 1/4 cup baking soda
 * 1 egg
 * sea, kosher, or pretzel salt OR cinnamon and sugar for sprinkling
