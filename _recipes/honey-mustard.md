@@ -1,7 +1,7 @@
 ---
 title: Honey Mustard
 layout: page
-tags: [seasonings, condiments]
+tags: [seasoning, condiments]
 ---
 
 ## Ingredients
