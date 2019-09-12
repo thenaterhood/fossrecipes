@@ -1,7 +1,7 @@
 ---
 title: Lemon Cookies
 layout: page
-tags: [cookies]
+tags: [cookies, dessert]
 ---
 
 ## Ingredients:
