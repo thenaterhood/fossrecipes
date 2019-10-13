@@ -2070,7 +2070,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #7f888f;
+		color: #020202;
 		font-family: "Open Sans", sans-serif;
 		font-size: 13pt;
 		font-weight: 400;
@@ -2121,7 +2121,7 @@
 			}
 
 	strong, b {
-		color: #3d4449;
+		color: #020202;
 		font-weight: 600;
 	}
 
@@ -2134,7 +2134,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3d4449;
+		color: #020202;
 		font-family: "Roboto Slab", serif;
 		font-weight: 700;
 		line-height: 1.5;
@@ -2299,7 +2299,7 @@
 	}
 
 	label {
-		color: #3d4449;
+		color: #020202;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 600;
@@ -2417,7 +2417,7 @@
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #7f888f;
+			color: #020202;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -2455,8 +2455,8 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #3d4449;
-			border-color: #3d4449;
+			background: #020202;
+			border-color: #020202;
 			color: #ffffff;
 			content: '\f00c';
 		}
@@ -2894,7 +2894,7 @@
 		}
 
 		table th {
-			color: #3d4449;
+			color: #020202;
 			font-size: 0.9em;
 			font-weight: 600;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -3555,7 +3555,7 @@
 			-webkit-transform: scaleX(-1);
 			-ms-transform: scaleX(-1);
 			transform: scaleX(-1);
-			color: #7f888f;
+			color: #020202;
 			content: '\f002';
 			cursor: default;
 			display: block;
@@ -3765,7 +3765,7 @@
 			}
 
 				#sidebar .toggle:before {
-					color: #7f888f;
+					color: #020202;
 					margin-left: -0.0625em;
 					margin-top: -0.25em;
 					font-size: 1.1rem;
@@ -3967,7 +3967,7 @@
 		-webkit-user-select: none;
 		-ms-user-select: none;
 		user-select: none;
-		color: #3d4449;
+		color: #020202;
 		font-family: "Roboto Slab", serif;
 		font-family: 400;
 		letter-spacing: 0.075em;
