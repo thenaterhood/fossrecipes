@@ -25,6 +25,24 @@
                     <ul class="icons">
                     </ul>
                 </header>
+                <div id="sidebar">
+                    <div class="inner">
+                        <nav id="menu">
+                            <header class="major">
+                                <h2>Browse</h2>
+                            </header>
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/all-recipes">All Recipes</a></li>
+                                {% assign tags =  site.recipes | map: 'tags' | uniq | sort_natural %}
+                                {% for tag in tags %}
+                                <li><a href="/categories#{{tag | slugify}}">{{tag}}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </nav>
+
+                    </div>
+                </div>
                 {{ content }}
             </div>
         </div>
