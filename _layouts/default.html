@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<!--
+    Editorial by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="main">
+            <div class="inner">
+                <!-- Header -->
+                <header id="header">
+                    <a class="logo" href="/">FOSS Family Recipes</a>
+                    <ul class="icons">
+                    </ul>
+                </header>
+                <div id="sidebar">
+                    <div class="inner">
+                        <nav id="menu">
+                            <header class="major">
+                                <h2>Browse</h2>
+                            </header>
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/all-recipes">All Recipes</a></li>
+                                {% assign tags =  site.recipes | map: 'tags' | uniq | sort_natural %}
+                                {% for tag in tags %}
+                                <li><a href="/categories#{{tag | slugify}}">{{tag}}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </nav>
+
+                    </div>
+                </div>
+                {{ content }}
+            </div>
+        </div>
+    </div>
+    <!-- Scripts -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/jquery.dropotron.min.js"></script>
+    <script src="/assets/js/skel.min.js"></script>
+    <script src="/assets/js/skel-viewport.min.js"></script>
+    <script src="/assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="/assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="/assets/js/main.js"></script>
+</body>
+<footer id="footer">
+    <p class="copright">Recipes are public domain. See <a href="/license"> additional license information</a> | Design:
+        <a href="http://html5up.net">HTML5 UP</a></p>
+</footer>
+
+</html>

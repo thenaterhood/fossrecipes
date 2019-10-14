@@ -1,45 +1,13 @@
-{% include site_html_start.html %}
-{% include site_header.html %}
-{% include page_start.html %}
-                <!-- Post -->
-                <section id="banner">
-                    <div class="content">
-                    <header>
-                        <h1>{{ page.title }}</h1>
-                    </header>
+---
+layout: default
+---
+<!-- Index -->
+<section id="banner">
+    <div class="content">
+        {{ content }}
+    </div>
 
-                    {{ content }}
-                    </div>
-
-                    <span class="image object">
-                        <img src="{{ page.hero }}">
-                    </span>
-                </section>
-
-                </div>
-                </div>
-
-                <div id="sidebar">
-                    <div class="inner">
-                        <nav id="menu">
-                           <header class="major">
-                                <h2>Browse</h2>
-                            </header>
-                            <ul>
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/all-recipes">All Recipes</a></li>
-                                {% assign tags =  site.recipes | map: 'tags' | join: ','  | split: ',' | uniq %}
-
-                                {% for tag in tags %}
-                                <li><a href="/categories#{{tag | slugify}}">{{tag}}</a></li>
-                                {% endfor %}
-                            </ul>
-                        </nav>
-
-    {% include site_footer.html %}
-                </div>
-
-</div>
-{% include scripts.html %}
-</body>
-</html>
+    <span class="image object">
+        <img src="{{ page.hero }}">
+    </span>
+</section>
