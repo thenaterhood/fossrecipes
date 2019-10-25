@@ -34,7 +34,7 @@
                             </header>
                             <ul>
                                 <li><a href="/">Home</a></li>
-                                <li><a href="/all-recipes">All Recipes</a></li>
+                                <li><a href="/recipes">All Recipes</a></li>
                                 {% assign tags =  site.recipes | map: 'tags' | uniq | sort_natural %}
                                 {% for tag in tags %}
                                 <li><a href="/categories#{{tag | slugify}}">{{tag}}</a></li>
@@ -60,7 +60,8 @@
 </body>
 <footer id="footer">
     <p class="copright">Recipes are public domain. See <a href="/license"> additional license information</a> | Design:
-        <a href="http://html5up.net">HTML5 UP</a></p>
+        <a href="http://html5up.net">HTML5 UP</a>
+    </p>
 </footer>
 
 </html>
