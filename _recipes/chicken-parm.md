@@ -13,7 +13,7 @@ _As much as is necessary to coat chicken breasts_
 
 * Eggs
 * Flour
-* Garlic seasoned bread crumbs
+* [Seasoned bread crumbs](/recipes/seasoned-breadcrumbs)
 
 ## Utensils:
 * Baking sheet
