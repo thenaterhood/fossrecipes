@@ -1,0 +1,27 @@
+<!-- Sidebar -->
+<div id="sidebar">
+    <div class="inner">
+        <!-- Menu -->
+        <nav id="menu">
+            <header class="major">
+                <h2>Browse</h2>
+            </header>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/recipes">All Recipes</a></li>
+                {% assign tags = site.recipes | map: 'tags' | uniq | sort_natural %}
+                {% for tag in tags %}
+                <li><a href="/categories#{{tag | slugify}}">{{tag}}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <p class="copyright">
+                Recipes are public domain. See <a href="/license.html"> additional license information</a> | Design:
+                <a href="http://html5up.net">HTML5 UP</a>
+            </p>
+        </footer>
+    </div>
+</div>

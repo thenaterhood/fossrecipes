@@ -7,3 +7,26 @@ collections:
     recipes:
         output: true
         permalink: /:collection/:name
+
+ignore_theme_config: true
+
+links:
+    - label: "GitHub"
+      icon: "brands fa-github"
+      url: "https://github.com/thenaterhood/fossrecipes"
+
+exclude:
+    - .sass-cache/
+    - .jekyll-cache/
+    - gemfiles/
+    - Gemfile
+    - Gemfile.lock
+    - node_modules/
+    - vendor/bundle/
+    - vendor/cache/
+    - vendor/gems/
+    - vendor/ruby/
+    - README.md
+    - "**/*.cache"
+    - "*.cache"
+    - LICENSE
