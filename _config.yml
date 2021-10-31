@@ -8,6 +8,8 @@ collections:
         output: true
         permalink: /:collection/:name
 
+ignore_theme_config: true
+
 exclude:
     - .sass-cache/
     - .jekyll-cache/
