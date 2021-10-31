@@ -4,7 +4,7 @@ layout: page
 ---
 
 ## Recipes
-Public domain CC0. Attribution is appreciated, but not required.
+Public domain CC0. Attribution is appreciated, but not required. [View details](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ## Site Design
 Site design is from HTML5 UP and is used under the Creative
