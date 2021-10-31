@@ -7,3 +7,19 @@ collections:
     recipes:
         output: true
         permalink: /:collection/:name
+
+exclude:
+    - .sass-cache/
+    - .jekyll-cache/
+    - gemfiles/
+    - Gemfile
+    - Gemfile.lock
+    - node_modules/
+    - vendor/bundle/
+    - vendor/cache/
+    - vendor/gems/
+    - vendor/ruby/
+    - README.md
+    - "**/*.cache"
+    - "*.cache"
+    - license.md
