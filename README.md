@@ -44,6 +44,21 @@ layout: page
 The instructions for making it
 </pre>
 
+## Dev environment
+
+If you are using vscode, and have docker installed, reopen this project in a "Dev Container". It would load a jekyll working environment with the lastest jekyll and supported ruby versions.
+
+[Learn more about Dev-Containers here](https://code.visualstudio.com/docs/remote/create-dev-container)
+
+### Local Server
+
+`jekyll serve --livereload --force-polling`
+
+### Build
+
+`JEKYLL_ENV=production bundle exec jekyll build`
+
+
 Licenses
 --------------
 See the licenses file.
