@@ -1,7 +1,7 @@
 ---
 title: Chicken and Andouille Gumbo
 layout: page
-tags: [chicken]
+tags: [chicken, pork]
 ---
 
 Pulled from [PreSonus’ secret recipes](https://www.fmicassets.com/Damroot/Original/10017/OM_2777500121_Eris-3.5_EN.pdf) in their user manual.
